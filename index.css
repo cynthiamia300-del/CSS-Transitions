@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(9, 3, 76);
+}
+
+.nav {
+    background-color: rgb(11, 7, 125);
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav a {
+    color: rgba(245, 245, 245, 0.698);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    position: relative;
+    top: 0px;
+    transition: 500ms;
+}
+
+.nav a:hover {
+    background-color: rgb(9, 3, 76);
+    top: -5px;
+}
+
+h1 {
+    color: rgba(245, 245, 245, 0.698);
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    margin: 20px;
+    border-radius: 20px;
+    width: 200px;
+    transition: 400ms;
+    border: 5px solid rgb(11, 7, 125);
+}
+
+.gallery img:hover {
+    transform: scale(120%) rotate(10deg) translateY(-20px); 
+}
